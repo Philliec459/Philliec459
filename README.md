@@ -22,10 +22,10 @@ Most of the repositories are petrophysically oriented, but there are some reposi
 
 Some of the newer repositories are on the following subjects:
 -	A new [Shaley-Sand Log Analysis Tutorial](https://github.com/Philliec459/NEW-Shaley-Sand-Log-Analysis-Tutorial-using-Combined-NMR-and-Conventional-Logs) written as a Jupyter Notebook that contains the code along with documentation for a typical shaley-sand  analysis.
--	A complete Carbonate Reservoir Characterization Workflow using Ed Clerke’s Arab D Rosetta Stone carbonate core database as calibration also written in 2 Jupyter Notebooks with full documentation.
--	A complete Geolog Project for an Arab D well using the above Carbonate Reservoir Characterization Workflow. 
--	Altair is used extensively in many or our repositories to interrogate our petrophysical data for both Core Calibration and Log data. 
--	We also have a few repositories on using Altair to better understand the dynamic production and pressure data from the Volve Field.
+-	A complete [Carbonate Reservoir Characterization Workflow](https://github.com/Philliec459/NEW-Carbonate-Characterization-Workflow-Jupiter-Notebook-Modules-with-Clerke-Arab-D-Calibration-Data) using Ed Clerke’s Arab D Rosetta Stone carbonate core database as calibration also written in 2 Jupyter Notebooks with full documentation.
+-	A complete [Geolog Project](https://github.com/Philliec459/Geolog-Used-to-Automate-the-Characterization-Workflow-using-Clerkes-Rosetta-Stone-calibration-data) for an Arab D well using the above Carbonate Reservoir Characterization Workflow. 
+-	Altair is used extensively in many or our repositories to interrogate our petrophysical data for both [Core Calibration](https://github.com/Philliec459/Altair-used-to-Select-Samples-from-Poro-Perm-Cross-Plot-to-Display-the-respective-Pc-Curves) and [Log](https://github.com/Philliec459/Geolog-Python-Loglan-use-of-Altair-to-Interrogate-Log-Analysis-data) data. 
+-	We also have a few repositories on using Altair to better understand the dynamic production and pressure data from the [Volve Field](https://github.com/Philliec459/Altair-used-to-Visualize-and-Interrogate-well-by-well-Production-Data-from-Volve-Field).
 -	There is much more to come ….
 
 ![workflow_examples](workflow_examples.gif)

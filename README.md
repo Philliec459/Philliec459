@@ -21,7 +21,7 @@ This is the personal GitHub profile for E. Craig Phillips who has his own compan
 Most of the repositories are petrophysically oriented, but there are some repositories that are examples of using AI/ML for Marine Object Detection (ships, boats, buoys, and land) too. 
 
 Some of the newer repositories are on the following subjects:
--	A new Shaley-Sand Log Analysis Tutorial written as a Jupyter Notebook that contains the code along with documentation for a typical shaley-sand  analysis.
+-	A new [Shaley-Sand Log Analysis Tutorial](https://github.com/Philliec459/NEW-Shaley-Sand-Log-Analysis-Tutorial-using-Combined-NMR-and-Conventional-Logs) written as a Jupyter Notebook that contains the code along with documentation for a typical shaley-sand  analysis.
 -	A complete Carbonate Reservoir Characterization Workflow using Ed Clerke’s Arab D Rosetta Stone carbonate core database as calibration also written in 2 Jupyter Notebooks with full documentation.
 -	A complete Geolog Project for an Arab D well using the above Carbonate Reservoir Characterization Workflow. 
 -	Altair is used extensively in many or our repositories to interrogate our petrophysical data for both Core Calibration and Log data. 

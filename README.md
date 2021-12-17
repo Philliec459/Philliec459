@@ -30,5 +30,5 @@ Some of the newer repositories are on the following subjects:
 
 ![workflow_examples](workflow_examples.gif)
 
-Constructive criticism and any collaboration are both welcome. 
+### Constructive criticism and any collaboration are both welcome. 
 

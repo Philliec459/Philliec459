@@ -28,7 +28,7 @@ Most of the repositories are petrophysically oriented, and many are designed to 
 -	Altair is used extensively in many or our repositories to interrogate our petrophysical data for both [Core Calibration](https://github.com/Philliec459/Altair-used-to-Select-Samples-from-Poro-Perm-Cross-Plot-to-Display-the-respective-Pc-Curves) and [Log](https://github.com/Philliec459/Geolog-Python-Loglan-use-of-Altair-to-Interrogate-Log-Analysis-data) data. Altair is a python library that allows for great interactivity using your dynamically-linked data. 
 -	We also have a few repositories using Altair again to better understand the reservoir’s dynamic data (production and pressure) from the [Volve Field](https://github.com/Philliec459/Altair-used-to-Visualize-and-Interrogate-well-by-well-Production-Data-from-Volve-Field). 
 -	A python program used to generate the Thomeer parameters from [High Pressure Mercury Injection](https://github.com/Philliec459/Thomeer-Used-to-Model-High-Pressure-Mercury-Injection-Core-Data) core data and model the Capillary Pressure Curves fitting the data to a Thomeer hyperbola.
--	You will also find other individual’s repositories that have been forked through GitHub too.
+-	You will also find other notable repositories that have been forked through GitHub too.
 -	There is much more to come …
 
 ### Constructive criticism and any collaboration are both welcome. We value your input.  

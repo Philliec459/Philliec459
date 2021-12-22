@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Welcome to the GitHub site for E. Craig Phillips. Craig has over 40 years of experience as a Petrophysicist in the Oil and Gas industry. Many of those years were spent in applied research that culminated with the experience gained working in the Reserves Assessment and the Geologic Modeling Groups at Saudi Aramco. Craig had the fortunate experience to characterize and 3D model most of the Giant oil and gas reservoirs in Saudi working on a team with Ed Clerke, Jan Buiting, and Ramsin Eyvazzadeh. 
+Welcome to the GitHub site for E. Craig Phillips. Craig has over 40 years of experience as a Petrophysicist in the Oil and Gas industry. Many of those years were spent in applied research that culminated with the experience gained working in the Reserves Assessment and the Geologic Modeling Groups at Saudi Aramco. Craig had the fortunate experience to characterize and 3D model most of the Giant oil and gas reservoirs in Saudi working on a team with Ed Clerke, Jan Buiting, Ramsin Eyvazzadeh, and Stephen Cheshire.  
 
 Craig is now developing python software where we can all exploit some of the most recent open-source python libraries that have been developed in recent years. Craig specializes in NMR log interpretation, core-log integration, and full-field Petrophysical Characterization studies, and the GitHub repositories at this site reflect this in this experience base. Craig is getting older and recognizes the need and value of delivering open-source software to industry as a way to give back to this industry for all the great years that he has had in this business.
 

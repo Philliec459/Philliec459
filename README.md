@@ -23,7 +23,7 @@ Most of the repositories are petrophysically oriented, and many are designed to 
 
 However, you will also find some off-the-wall repositories using Deep Learning for ⚡[Marine Object Detection](https://github.com/Philliec459/Jetson-Inference-Pytorch-SSD-used-to-Detect-Marine-Objects-using-JP4.4) to identify ships, boats, buoys, and land mass from a live video feed sailing. 
 
-![Geolog_Image](Sailboat_ID_using_AI.gif)
+>![Geolog_Image](Sailboat_ID_using_AI.gif)
 
 This project was implemented on an Island Packet 420 Sailing Vessel using a Jetson NX minicomputer for the video Object Detection. One of the benefits of being able to write your own software is that if you need it, then do it.
 

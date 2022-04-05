@@ -21,7 +21,7 @@ Craig is now developing python software where we can all exploit some of the mos
 
 Most of the repositories are petrophysically oriented, and many are designed to be used with Emerson's Geolog software using python loglans and Jupyter Notebooks as help files. There are also complete Geolog projects with python loglans available here too. One [Geolog Project](https://github.com/Philliec459/Geolog-Used-to-Automate-the-Characterization-Workflow-using-Clerkes-Rosetta-Stone-calibration-data) demonstrates a proven Carbonate Petrophysical Characterization Workflow used to characterize the Arab D carbonate reservoirs of Saudi Arabia using Ed Clerke's Rosetta Stone core database as calibration. The other [Geolog Project](https://github.com/Philliec459/Geolog-Used-to-Model-Thomeer-Parameters-from-High-Pressure-Mercury-Injection-Data) can be used to model High Pressure Mercury Injection core data for the Thomeer parameters to model reservoir saturations using Capillary Pressure. 
 
-However, you will also find some off-the-wall repositories using Deep Learning for ⚡[Marine Object Detection](https://github.com/Philliec459/Jetson-Inference-Pytorch-SSD-used-to-Detect-Marine-Objects-using-JP4.4) to identify ships, boats, buoys, and land mass from a live video feed sailing. 
+However, you will also find some off-the-wall repositories using Deep Learning for ⚡[Marine Object Detection](https://github.com/Philliec459/Jetson-Inference-Pytorch-SSD-used-to-Detect-Marine-Objects-using-JP4.4) to identify ships, boats, buoys, and land mass from a live video feed sailing. In the image below we are not performing object detection on the land, but we are performing object detection on 'boats' and 'buoys': 
 
 >![Geolog_Image](Sailboat_ID_using_AI_cropped.gif)
 

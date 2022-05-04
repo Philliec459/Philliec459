@@ -28,7 +28,7 @@ However, you will also find some off-the-wall repositories using Deep Learning f
 This project was implemented on an Island Packet 420 Sailing Vessel using a Jetson NX minicomputer for the video Object Detection. One of the benefits of being able to write your own software is that if you need it, then do it.
 
 ### The following is a partial list of available repositories that will give you a flavor of some of the projects available at this GitHub site. Please see all of the GitHub repositories using this link [Repositories]( https://github.com/Philliec459?tab=repositories).
-- We have a new [repository](https://github.com/Philliec459/NMR-Echo-Train-Inversion-to-created-a-typical-NMR-log) for NMR Echo Train T2 inversion to create an NMR log.
+- We have a new [repository](https://github.com/Philliec459/NMR-Echo-Train-Inversion-to-created-a-typical-NMR-log) for NMR Echo Train T2 inversion to create an NMR log employing a rather unorthodox approach using SciPy's curve_fit.It is different, but with this example you can control the Echo Train noise by adding random noise and then also apply Echo Train Stacking to improve the S/N at the expense of lower NMR log resolution. 
 
 >![Geolog_Image](NMR_log.gif)
 

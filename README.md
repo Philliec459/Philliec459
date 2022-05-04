@@ -28,6 +28,10 @@ However, you will also find some off-the-wall repositories using Deep Learning f
 This project was implemented on an Island Packet 420 Sailing Vessel using a Jetson NX minicomputer for the video Object Detection. One of the benefits of being able to write your own software is that if you need it, then do it.
 
 ### The following is a partial list of available repositories that will give you a flavor of some of the projects available at this GitHub site. Please see all of the GitHub repositories using this link [Repositories]( https://github.com/Philliec459?tab=repositories).
+- We have a new repository for NMR Echo Train T2 inversion to create an NMR log.
+
+>![Geolog_Image](NMR_log.gif)
+
 - We have a new repository that uses Altair and Panel to allow us to [interrogate](https://github.com/Philliec459/View-Thin-Section-Images-from-a-Porosity-Permeability-Cross-Plot-using-Python-Altair) Routine Core Analysis (RCA) and SCAL data using Thin Section images in the process to better understand the texture of the rock. We have also added a Geolog project with python loglans to provide this same application in Geolog. This was not at all straight forward coding since only Jupyter Notebooks will display (render) the Thin Section images directly. Instead, we are using an alternative solutions to render the Thin Section images for Geolog, JupyterLab Notebooks and even .py files. 
 
 >![Geolog_Image](k-phi_with_Pc_ts.gif)

@@ -29,12 +29,13 @@ This project was implemented on an Island Packet 420 Sailing Vessel using a Jets
 
 ### The following is a partial list of available repositories that will give you a flavor of some of the projects available at this GitHub site. Please see all of the GitHub repositories using this link [Repositories]( https://github.com/Philliec459?tab=repositories).
 - We have a new [NMR repository](https://github.com/Philliec459/NMR-Echo-Train-Inversion-to-created-a-typical-NMR-log) that demonstrates how we can use python SciPy curve_fit for NMR Echo Train T2 inversion to create an NMR log:
-    def func(x,p1,p2,p3,p4,p5,p6,p7,p8):
-        return (p1*np.exp(-x/4)+p2*np.exp(-x/8)+p3*np.exp(-x/16)+p4*np.exp(-x/32)+p5*np.exp(-x/64)+p6*np.exp(-x/128)+p7*np.exp(-x/256)+p8*np.exp(-x/512))
+>
+>    def func(x,p1,p2,p3,p4,p5,p6,p7,p8):
+>        return (p1*np.exp(-x/4)+p2*np.exp(-x/8)+p3*np.exp(-x/16)+p4*np.exp(-x/32)+p5*np.exp(-x/64)+p6*np.exp(-x/128)+p7*np.exp(-x/256)+p8*np.exp(-x/512))
+>
+>    popt, pcov = curve_fit(func, xdata, ystack, method='trf', bounds=(0.05, [20, 20, 20, 20, 20, 20, 20, 20]))
 
-    popt, pcov = curve_fit(func, xdata, ystack, method='trf', bounds=(0.05, [20, 20, 20, 20, 20, 20, 20, 20]))
-
-This is a rather unorthodox approach, but it does demonstrate how an NMR log is created from the NMR Time-Domain Echo Train data. With the code in this repository, you can control the Echo Train noise, by adding additional random noise to the Time Domain data; and also apply Echo Train stacking to improve the S/N at the expense of lower NMR log resolution. The following animated gif illustrates how the program processes each Echo Train to create the T2 distribution and then the NMR log. This type of visual NMR Time-Domain processing was inspired by the software designed by Dan Georgi, formerly with Baker Atlas. Dan wanted his Echo Train inversion software to be visual and intuitive to use, and it was. An added benefit was that it was quite obvious if there was a problem with the number of echoes being acquired or not enough bins employed in the inversion process. We have tried to capture some of Dan's objectives in this python example.
+> This is a rather unorthodox approach, but it does demonstrate how an NMR log is created from the NMR Time-Domain Echo Train data. With the code in this repository, you can control the Echo Train noise, by adding additional random noise to the Time Domain data; and also apply Echo Train stacking to improve the S/N at the expense of lower NMR log resolution. The following animated gif illustrates how the program processes each Echo Train to create the T2 distribution and then the NMR log. This type of visual NMR Time-Domain processing was inspired by the software designed by Dan Georgi, formerly with Baker Atlas. Dan wanted his Echo Train inversion software to be visual and intuitive to use, and it was. An added benefit was that it was quite obvious if there was a problem with the number of echoes being acquired or not enough bins employed in the inversion process. We have tried to capture some of Dan's objectives in this python example.
 
 >![Geolog_Image](NMR_log.gif)
 

@@ -34,9 +34,9 @@ This project was implemented on an Island Packet 420 Sailing Vessel using a Jets
 >        return (p1*np.exp(-x/4)+p2*np.exp(-x/8)+p3*np.exp(-x/16)+p4*np.exp(-x/32)+p5*np.exp(-x/64)+p6*np.exp(-x/128)+p7*np.exp(-x/256)+p8*np.exp(-x/512))
 >
 >    popt, pcov = curve_fit(func, xdata, ystack, method='trf', bounds=(0.05, [20, 20, 20, 20, 20, 20, 20, 20]))
-
+>
 > This is a rather unorthodox approach, but it does demonstrate how an NMR log is created from the NMR Time-Domain Echo Train data. With the code in this repository, you can control the Echo Train noise, by adding additional random noise to the Time Domain data; and also apply Echo Train stacking to improve the S/N at the expense of lower NMR log resolution. The following animated gif illustrates how the program processes each Echo Train to create the T2 distribution and then the NMR log. This type of visual NMR Time-Domain processing was inspired by the software designed by Dan Georgi, formerly with Baker Atlas. Dan wanted his Echo Train inversion software to be visual and intuitive to use, and it was. An added benefit was that it was quite obvious if there was a problem with the number of echoes being acquired or not enough bins employed in the inversion process. We have tried to capture some of Dan's objectives in this python example.
-
+>
 >![Geolog_Image](NMR_log.gif)
 
 - We have a new repository that uses Altair and Panel to allow us to [interrogate](https://github.com/Philliec459/View-Thin-Section-Images-from-a-Porosity-Permeability-Cross-Plot-using-Python-Altair) Routine Core Analysis (RCA) and SCAL data using Thin Section images in the process to better understand the texture of the rock. We have also added a Geolog project with python loglans to provide this same application in Geolog. This was not at all straight forward coding since only Jupyter Notebooks will display (render) the Thin Section images directly. Instead, we are using an alternative solutions to render the Thin Section images for Geolog, JupyterLab Notebooks and even .py files. 

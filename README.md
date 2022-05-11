@@ -24,7 +24,7 @@ Most of the repositories are petrophysically oriented, and many are designed to 
 However, you will also find some off-the-wall repositories using Deep Learning for ⚡[Marine Object Detection](https://github.com/Philliec459/Jetson-Inference-Pytorch-SSD-used-to-Detect-Marine-Objects-using-JP4.4) to identify ships, boats, buoys, and land mass from a live video feed sailing. In the image below we are not performing object detection on the land, but we are performing object detection on 'boats' and 'buoys', and there are no 'buoys': 
 >![Geolog_Image](Sailboat_ID_using_AI_cropped.gif)
 >
->**Figure 1) Sailboat Object Detection using Pytorch.**
+>**Figure 1) Boat Object Detection using Pytorch.**
 >
 >This project was implemented on an Island Packet 420 Sailing Vessel using a Jetson NX minicomputer for the video Object Detection. One of the benefits of being able to write your own software is that if you need it, then do it.
 
@@ -54,11 +54,11 @@ However, you will also find some off-the-wall repositories using Deep Learning f
 -	We have a complete carbonate (Arab D) Reservoir Characterization Workflow available in a [Geolog Project](https://github.com/Philliec459/Geolog-Used-to-Automate-the-Characterization-Workflow-using-Clerkes-Rosetta-Stone-calibration-data). We are using python loglans with Ed Clerke’s Arab D Rosetta Stone carbonate core database as the calibration data. We also have a corresponding repository with 2 Jupyter Notebooks that can be used as [Help Files](https://github.com/Philliec459/NEW-Carbonate-Characterization-Workflow-Jupiter-Notebook-Modules-with-Clerke-Arab-D-Calibration-Data) to provide full documentation to explain each step of this characterization process. There is a third Notebook too that estimates Petrophysical Rock Types (PRT) using Sklearn, but we prefer the kNN method proposed in the second Notebook. 
 >![Geolog_Image](Results.png)
 >
->**Figure 5) Arab D Carbonate Reservoir Characterization Workflow using Clerke's Rosetta Stone Arab D carbonate data for calibration.** 
+>**Figure 5) Arab D Carbonate Reservoir Characterization Workflow using Clerke's Rosetta Stone Arab D carbonate dataset for calibration.** 
 -	We have a new [Geolog Project](https://github.com/Philliec459/Geolog-Used-to-Model-Thomeer-Parameters-from-High-Pressure-Mercury-Injection-Data) used for Thomeer Parameter Analysis of High Pressure Mercury Injection (HPMI) core data using SciPy curve-fit written in a Geolog python loglan. This loglan estimates the Thomeer Capillary Pressure parameters for the Thomeer hyperbola to model the HPMI Capillary Pressure data and then used to estimate Capillary Pressure saturations in the reservoir. We also have the corresponding python code in a Jupyter Notebook with complete documentation to be used as a help file for this Geolog Thomeer Analysis [Help Files](https://github.com/Philliec459/Thomeer-Used-to-Model-High-Pressure-Mercury-Injection-Core-Data). 
 >![Geolog_Image](Thomeer_Parameter_fitting.gif)
 >
->**Figure 6) Fit High Pressure Mercury Injection data to a Thomeer hyperbola to determine the Thomeer Capillary Pressure parameters for each sample.** 
+>**Figure 6) High Pressure Mercury Injection data fit to the Thomeer hyperbola to determine the Thomeer Capillary Pressure parameters for each sample.** 
 -	A new [Shaley-Sand Log Analysis Tutorial](https://github.com/Philliec459/NEW-Shaley-Sand-Log-Analysis-Tutorial-using-Combined-NMR-and-Conventional-Logs) written as a Jupyter Notebook in python that contains the code along with documentation for a typical shaley-sand  analysis. This could be used as a stand-alone software or implemented in other Petrophysical software packages. This program uses George Coates' MRIAN type analysis using Dual Water saturations as well as Waxman-Smits saturations too. 
 >![Geolog_Image](final2.png)
 >

@@ -42,7 +42,7 @@ This project was implemented on an Island Packet 420 Sailing Vessel using a Jets
 
 - We have a new repository that uses Altair and Panel to allow us to [interrogate](https://github.com/Philliec459/View-Thin-Section-Images-from-a-Porosity-Permeability-Cross-Plot-using-Python-Altair) Routine Core Analysis (RCA) and SCAL data using Thin Section images in the process to better understand the texture of the rock. We have also added a Geolog project with python loglans to provide this same application in Geolog. This was not at all straight forward coding since only Jupyter Notebooks will display (render) the Thin Section images directly. Instead, we are using an alternative solutions to render the Thin Section images for Geolog, JupyterLab Notebooks and even .py files. 
 
-![Costa_Production](https://user-images.githubusercontent.com/56929340/167881758-dc7a789d-ec86-43ba-b822-90372e4950aa.gif)
+>![Costa_Production](https://user-images.githubusercontent.com/56929340/167881758-dc7a789d-ec86-43ba-b822-90372e4950aa.gif)
 
 -	In our GitHub repository we have used a new, comprehensive reservoir characterization database from Costa, Geiger and Arnold(1) located at the following link where you will find our [Jupyter Notebooks](https://github.com/Philliec459/Jupyter-Notebooks_for-Characterization-of-a-New-Open-Source-Carbonate-Reservoir-Benchmarking-Case-St). We have employed all the available 17 well logs, Routine Core Analysis (RCA) and Special Core Analysis (SCAL) and implemented our typical carbonate reservoir characterization workflow as discussed by Phillips (2). 
 >![Geolog_Image](Costa_field_characterization.gif)

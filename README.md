@@ -68,4 +68,60 @@ However, you will also find some off-the-wall repositories using Deep Learning f
 -	You will also find other notable repositories from others that have been forked into this site through GitHub too.
 -	There is much more to come …
 
+![image.png](sts_nasa.png)
+
+# **Science-and-Technology-Society-Use-of-NASA-STELLA-Q2-Spectrometer**
+The **Science and Technology Society (STS) of Sarasota-Manatee Counties, Florida** is working with the NASA STELLA (Science and Technology Education for Land/Life Assessment) outreach program as a part of our STEM initiative. According to their site, 
+
+- "NASA STELLA instruments are portable low-cost do-it-yourself (DIY) instruments that support science education, and outreach through scientific engagement, inquiry, and discovery while helping you understand Landsat better". 
+
+**STELLA instruments are developed under the influence and inspiration of Landsat.** This alignment not only fulfills our project needs but also serves as a compelling addition to our STEAM initiatives:
+1) To train the minds young Floridians to be more aware of our wetlands, to care for them and about them.  Our program will bring more community publicity to the issue of wetlands change, as well.
+2) To expose our middle- and high- school aged students to real science, using real data.  That means how to use instrumentation and understand how the data is collected, and how the data can be used in the real world.  It means not only to create beautiful charts and images that form the good results, but also to understand that data must be collected in a proper and reproducible way, that there physics reasons for lack of accuracy and lack of precision that one must understand and minimize in order to achieve meaningful results.
+
+The NASA STELLA-Q2 is capable of making 18 different spectral measurements from the violet/blue portions of the electromagnetic spectrum out to near infrared regions (beyond our range of vision).The following figure **(1)** shows the visible spectrum by wavelength, and the yellow box indicates the STELLA-Q2 frequency range. 
+
+>![image](wavelengths.png)
+
+More can be found on the STELLA DIY instruments at the following link.
+
+>https://landsat.gsfc.nasa.gov/stella/
+
+The **Science and Technology Society (STS)** of Sarasota-Manatee Counties, FL have created a Jupyter Notebook to load raw **NASA STELLA-Q2** spectrometer data, white-card correct the wavelength data and then use **Decision Tree** and **Knn** to differentiate plant species based on the **mean End-Members** reference data where the **Normalized Difference Vegetative Index (NDVI)** is key to this analysis. NDVI is calculated:
+
+    NDVI = (Near IR irradiance – Red irradiance)/( Near IR irradiance + Red irradiance)
+
+The STELLA-Q2 is a NASA configured hand-held spectrometer designed by Paul Mirel at NASA. The unit is relatively inexpensive and is used to collect End-Member data that can then be used to calibrate Landsat interpretations. Mike Taylor of NASA heads up the STELLA team, and he and his entire team have been so immensely helpful as we delve into calibrated Landsat interpretations. 
+
+In our notebooks we employ a few novel python methods using Altair and Panel to display the actual plant species images along the time-series NDVI data for each of the spectrometer readings. This helps us better understand the subtle differences in the STELLA data and calculated values. 
+
+>
+>![animated](STELLA_with_Photos.gif)
+>
+>
+## **These are all of the wavelength plots colored by vegetative species after the white-card corrections:**
+
+>
+>![non-animated](wavelengths.png)
+>
+
+## **The Decision Tree method allows us to better understand the logic used to differente one species from the other:**
+
+>
+>![non-animated](DecisionTree.png)
+>
+
+## **The following table shows the various mean End-Members for each species used with our transparent Knn method:**
+
+>
+>![non-animated](EndMember.png)
+>
+
+## **The STELLA data clusters naturally for each vegetative target species in red, near IR and NDVI space:**
+
+>
+>![non-animated](3D.png)
+>
+
+
 ### Constructive criticism and any collaboration are both welcome. We value your input.  

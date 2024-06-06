@@ -67,10 +67,9 @@ However, you will also find some off-the-wall repositories using Deep Learning f
 -	We also have a few repositories using Altair again to better understand the reservoir’s dynamic data (production and pressure) from the [Volve Field](https://github.com/Philliec459/Altair-used-to-Visualize-and-Interrogate-well-by-well-Production-Data-from-Volve-Field). 
 -	You will also find other notable repositories from others that have been forked into this site through GitHub too.
 -	There is much more to come …
-
+---
+---
 ![image.png](sts_nasa.png)
----
----
 # **Science-and-Technology-Society-Use-of-NASA-STELLA-Q2-Spectrometer**
 The **Science and Technology Society (STS) of Sarasota-Manatee Counties, Florida** is working with the NASA STELLA (Science and Technology Education for Land/Life Assessment) outreach program as a part of our STEM initiative. According to their site, 
 

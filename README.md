@@ -69,7 +69,8 @@ However, you will also find some off-the-wall repositories using Deep Learning f
 -	There is much more to come …
 
 ![image.png](sts_nasa.png)
-
+---
+---
 # **Science-and-Technology-Society-Use-of-NASA-STELLA-Q2-Spectrometer**
 The **Science and Technology Society (STS) of Sarasota-Manatee Counties, Florida** is working with the NASA STELLA (Science and Technology Education for Land/Life Assessment) outreach program as a part of our STEM initiative. According to their site, 
 

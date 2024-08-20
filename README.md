@@ -105,23 +105,5 @@ In our notebooks we employ a few novel python methods using Altair and Panel to 
 >![non-animated](wavelengths.png)
 >
 
-## **The Decision Tree method allows us to better understand the logic used to differente one species from the other:**
-
->
->![non-animated](DecisionTree.png)
->
-
-## **The following table shows the various mean End-Members for each species used with our transparent Knn method:**
-
->
->![non-animated](EndMember.png)
->
-
-## **The STELLA data clusters naturally for each vegetative target species in red, near IR and NDVI space:**
-
->
->![non-animated](3D.png)
->
-
 
 ### Constructive criticism and any collaboration are both welcome. We value your input.  

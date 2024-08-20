@@ -99,11 +99,3 @@ In our notebooks we employ a few novel python methods using Altair and Panel to 
 >![animated](STELLA_with_Photos.gif)
 >
 >
-## **These are all of the wavelength plots colored by vegetative species after the white-card corrections:**
-
->
->![non-animated](wavelengths.png)
->
-
-
-### Constructive criticism and any collaboration are both welcome. We value your input.  
